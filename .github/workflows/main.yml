@@ -28,6 +28,6 @@ jobs:
         with:
           context: .
           file: ./dockerfile.v1
-          platform: linux/amd64 , linux/arm64 , linux/arm/v7 
+          platform: linux/arm/v7 , linux/amd64 , linux/arm64
           push: true
           tags: wojmaj/zadanie_2:tagname
