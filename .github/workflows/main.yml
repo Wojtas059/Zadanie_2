@@ -29,4 +29,5 @@ jobs:
           context: .
           file: ./dockerfile
           push: true
+          platform: linux/amd64, linux/arm64, linux/arm/v7
           tags: wojmaj/zadanie_2:tagname
