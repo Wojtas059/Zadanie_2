@@ -23,7 +23,7 @@ jobs:
           username: ${{ secrets.user_ }}
           password: ${{  secrets.password }}
       -
-        name: Build and push zadanie 1
+        name: Build and push zadanie 2
         uses: docker/build-push-action@v2
         with:
           context: .
