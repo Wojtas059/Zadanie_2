@@ -29,4 +29,4 @@ jobs:
           context: .
           file: ./Dockerfile.zad2
           push: true
-          tags: docker push wojmaj/zadanie_3:tagname
+          tags: wojmaj/zadanie_3:tagname
