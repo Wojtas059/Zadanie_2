@@ -1,3 +1,5 @@
+name: next_example
+
 on:
   push:
     branches:
